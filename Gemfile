@@ -43,5 +43,14 @@ group :test do
 	gem 'database_cleaner'
 	gem 'launchy'
 	gem 'selenium-webdriver'
+	
+	gem 'faker' 
+	gem 'capybara' 
+	gem 'guard-rspec' 
 end
 
+group :development, :test do 
+	gem 'rspec-rails' 
+	gem 'factory_girl_rails' 
+	gem 'rspec-collection_matchers'
+end
